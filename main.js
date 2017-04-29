@@ -6,6 +6,8 @@ let secretSauce = 'by building invite-only Internets';
 
 // your code, here
 let pitch = document.getElementById('main');
-pitch.innerHTML = 'My company, '+ companyName +',\nis developing ' + anOffering + '\nto help ' + aTargetAudience +'\n' + solveAProblem + '\n' + secretSauce + '.';
+pitch.innerHTML = 'My company, '+ companyName +',\nis developing ' +
+anOffering + '\nto help ' + aTargetAudience +'\n' +
+solveAProblem + '\n' + secretSauce + '.';
 
 console.log(pitch);
